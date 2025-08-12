@@ -1,0 +1,20 @@
+{
+  "name": "lesson04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write \"**/*.html\"",
+    "dev": "npm run tailwind & npm run prettier"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1",
+    "prettier-plugin-tailwindcss": "^0.4.13"
+  }
+
+}
